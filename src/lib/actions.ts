@@ -61,3 +61,7 @@ export async function getFacultyMeetings() { return []; }
 export async function getFacultyTimetable() { return []; }
 export async function getFinancialStatus() { return null; }
 export async function getGradeHistory() { return []; }
+export async function getCounsellingRecords() { return []; }
+export async function getParentProfile() { return null; }
+export async function getParentWardAttendanceLogs() { return []; }
+export async function getLeaveStatus() { return null; }
