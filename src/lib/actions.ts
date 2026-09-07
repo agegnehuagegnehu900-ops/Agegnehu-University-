@@ -17,7 +17,7 @@ export async function getProctees() { return []; }
 export async function getRegistrationWindows() { return null; }
 export async function getResearchProfile() { return null; }
 export async function getSeatAllocations() { return []; }
-export async function getSecurityStatus() { return null; }
+export async function getSecurityStatus() { return { securityAudits: [] }; }
 export async function getSemesterMilestones() { return []; }
 export async function getServiceRequests() { return []; }
 export async function getTimetable() { return []; }
@@ -72,4 +72,3 @@ export async function getLeaveStatus() { return null; }
 export async function getFacultyDashboardData() { return null; }
 export async function getParentWardPayments() { return []; }
 export async function getProgrammeMigrations() { return []; }
-
