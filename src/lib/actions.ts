@@ -22,26 +22,26 @@ export async function getSemesterMilestones() { return []; }
 export async function getServiceRequests() { return []; }
 export async function getTimetable() { return []; }
 export async function getWardTimetable() { return []; }
-export async function markAttendance() { return null; }
-export async function postForumPost() { return null; }
-export async function postForumReply() { return null; }
-export async function reserveBook() { return null; }
-export async function searchBooks() { return []; }
-export async function submitAssignment() { return null; }
+export async function markAttendance(data?: any) { return null; }
+export async function postForumPost(data?: any) { return null; }
+export async function postForumReply(data?: any) { return null; }
+export async function reserveBook(id?: any) { return null; }
+export async function searchBooks(query?: any) { return []; }
+export async function submitAssignment(data?: any) { return null; }
 export async function syncInstitutionalData(target?: any) { return null; }
-export async function toggle2FA() { return null; }
-export async function triggerNotification() { return null; }
-export async function updateMarksBulk() { return null; }
-export async function getStudentProfileByParent() { return null; }
-export async function getParentWardMeetings() { return []; }
-export async function getParentPayments() { return []; }
-export async function getParentWardTimetable() { return []; }
+export async function toggle2FA(data?: any) { return null; }
+export async function triggerNotification(data?: any) { return null; }
+export async function updateMarksBulk(data?: any) { return null; }
+export async function getStudentProfileByParent(id?: any) { return null; }
+export async function getParentWardMeetings(id?: any) { return []; }
+export async function getParentPayments(id?: any) { return []; }
+export async function getParentWardTimetable(id?: any) { return []; }
 export async function getAcademicCalendar() { return []; }
 export async function getDigitalCredentials() { return []; }
 export async function getHallTicketEligibility() { return null; }
-export async function getCourseStudents() { return []; }
-export async function downloadTimetableICS() { return null; }
-export async function exportAcademicReport() { return null; }
+export async function getCourseStudents(id?: any) { return []; }
+export async function downloadTimetableICS(id?: any) { return null; }
+export async function exportAcademicReport(type?: any) { return null; }
 export async function getAcademicEvents() { return []; }
 export async function getAcademicPerformance() { return []; }
 export async function getAchievementsData() { return []; }
@@ -52,8 +52,8 @@ export async function getCareerStatus() { return null; }
 export async function getClubsAndEvents() { return []; }
 export async function getCommunications() { return []; }
 export async function getCourses() { return []; }
-export async function getCourseDetails() { return null; }
-export async function getCourseMaterials() { return []; }
+export async function getCourseDetails(id?: any) { return null; }
+export async function getCourseMaterials(id?: any) { return []; }
 export async function getCourseRegistrations() { return []; }
 export async function getClassesForAttendance() { return []; }
 export async function getDetailedMarks() { return []; }
@@ -72,3 +72,4 @@ export async function getLeaveStatus() { return null; }
 export async function getFacultyDashboardData() { return null; }
 export async function getParentWardPayments() { return []; }
 export async function getProgrammeMigrations() { return []; }
+  
