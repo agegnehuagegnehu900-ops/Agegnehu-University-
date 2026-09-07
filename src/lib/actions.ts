@@ -41,7 +41,7 @@ export async function getDigitalCredentials() { return []; }
 export async function getHallTicketEligibility() { return null; }
 export async function getCourseStudents(id?: any) { return []; }
 export async function downloadTimetableICS(id?: any) { return null; }
-export async function exportAcademicReport(type?: any) { return null; }
+export async function exportAcademicReport(type?: any) { return { filename: "report.pdf" }; }
 export async function getAcademicEvents() { return []; }
 export async function getAcademicPerformance() { return []; }
 export async function getAchievementsData() { return []; }
@@ -72,4 +72,4 @@ export async function getLeaveStatus() { return null; }
 export async function getFacultyDashboardData() { return null; }
 export async function getParentWardPayments() { return []; }
 export async function getProgrammeMigrations() { return []; }
-  
+
