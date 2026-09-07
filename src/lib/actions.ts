@@ -6,12 +6,14 @@ export async function getMarks() { return []; }
 export async function getStudentProfile() { return null; }
 export async function getMeetings() { return []; }
 export async function getMessMenu() { return null; }
+export async function getMessMenus() { return null; }
 export async function getParentDashboardData() { return null; }
 export async function getFacultyProfile() { return null; }
 export async function getParentWardAttendance() { return []; }
 export async function getPayments() { return []; }
 export async function getPendingFeedbacks() { return []; }
 export async function getProctors() { return []; }
+export async function getProctees() { return []; }
 export async function getRegistrationWindows() { return null; }
 export async function getResearchProfile() { return null; }
 export async function getSeatAllocations() { return []; }
@@ -19,6 +21,7 @@ export async function getSecurityStatus() { return null; }
 export async function getSemesterMilestones() { return []; }
 export async function getServiceRequests() { return []; }
 export async function getTimetable() { return []; }
+export async function getWardTimetable() { return []; }
 export async function markAttendance() { return null; }
 export async function postForumPost() { return null; }
 export async function postForumReply() { return null; }
@@ -69,3 +72,4 @@ export async function getLeaveStatus() { return null; }
 export async function getFacultyDashboardData() { return null; }
 export async function getParentWardPayments() { return []; }
 export async function getProgrammeMigrations() { return []; }
+
