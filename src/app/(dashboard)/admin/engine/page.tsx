@@ -71,7 +71,8 @@ export default function EngineControlCenter() {
     if (!notificationMsg) return
     setNotifying(true)
     try {
-        await triggerNotification(target, notificationMsg)
+      await triggerNotification({ target, message: notificationMsg })
+      
         toast({ title: "Message Sent", description: `The ${target} announcement has been dispatched.` })
         setNotificationMsg("")
     } catch {
