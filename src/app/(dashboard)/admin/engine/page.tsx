@@ -58,7 +58,8 @@ export default function EngineControlCenter() {
     setExporting(type)
     try {
         const res = await exportAcademicReport(type)
-        toast({ title: "Export Compiled", description: `Filename: ${res.filename} | Size: ${res.size} bytes` })
+        toast({ title: "Export Compiled", description: `Filename: ${res.filename}` })
+      
     } catch {
         toast({ title: "Export Failed", variant: "destructive" })
     } finally {
