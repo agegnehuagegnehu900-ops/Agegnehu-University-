@@ -68,3 +68,4 @@ export async function getParentWardAttendanceLogs() { return []; }
 export async function getLeaveStatus() { return null; }
 export async function getFacultyDashboardData() { return null; }
 export async function getParentWardPayments() { return []; }
+export async function getProgrammeMigrations() { return []; }
