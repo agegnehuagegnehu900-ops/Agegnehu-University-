@@ -28,7 +28,7 @@ export async function postForumReply() { return null; }
 export async function reserveBook() { return null; }
 export async function searchBooks() { return []; }
 export async function submitAssignment() { return null; }
-export async function syncInstitutionalData() { return null; }
+export async function syncInstitutionalData(target?: any) { return null; }
 export async function toggle2FA() { return null; }
 export async function triggerNotification() { return null; }
 export async function updateMarksBulk() { return null; }
