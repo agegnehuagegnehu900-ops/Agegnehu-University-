@@ -1,7 +1,5 @@
-<div align="center">
-  <img src="public/logo.png" alt="CampusHub" width="180" />
-  
-  # ⚡ CampusHub
+
+  # ⚡ Agegnehu University 
   
   **The University Portal That Doesn't Make You Cry**
   
@@ -22,7 +20,7 @@
 
 Legacy university portals are archaeological artifacts. They're slow, confusing, and look like they were designed when dial-up was cutting-edge technology.
 
-**CampusHub** is the ground-up rewrite nobody asked for but everyone desperately needed. No half-measures. No compromises. Just pure, beautiful functionality.
+**Agegnehu University ** is the ground-up rewrite nobody asked for but everyone desperately needed. No half-measures. No compromises. Just pure, beautiful functionality.
 
 ---
 
@@ -335,7 +333,7 @@ We welcome contributions! Please read our [CONTRIBUTING.md](CONTRIBUTING.md) to 
 
 ## 👨‍💻 Creator
 
-**Arsh Verma**  
+**Agegnehu Shibiru **  
 _Full Stack Architect • UI/UX Perfectionist_
 
 Built with ❤️, TypeScript, and way too much coffee.
@@ -361,7 +359,7 @@ MIT License — Use it, modify it, share it. Just don't claim you built it from 
   
   ### ⭐ Star this repo if it saved your sanity!
   
-  **CampusHub** — *Engineering the Future of Education*
+  **Agegnehu University** — *Engineering the Future of Education*
   
   ```
   ╔════════════════════════════════════════╗
