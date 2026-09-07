@@ -55,6 +55,7 @@ export async function getCourseRegistrations() { return []; }
 export async function getClassesForAttendance() { return []; }
 export async function getDetailedMarks() { return []; }
 export async function getExamSchedule() { return []; }
+export async function getExamSchedules() { return []; }
 export async function getFacultyAdminData() { return null; }
 export async function getFacultyCounsellingRecords() { return []; }
 export async function getFacultyMeetings() { return []; }
@@ -65,3 +66,5 @@ export async function getCounsellingRecords() { return []; }
 export async function getParentProfile() { return null; }
 export async function getParentWardAttendanceLogs() { return []; }
 export async function getLeaveStatus() { return null; }
+export async function getFacultyDashboardData() { return null; }
+export async function getParentWardPayments() { return []; }
