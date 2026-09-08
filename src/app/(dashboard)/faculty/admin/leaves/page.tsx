@@ -54,7 +54,8 @@ export default async function FacultyLeaves() {
                 </CardHeader>
                 <CardContent className="p-0">
                     <div className="divide-y divide-white/5">
-                        {leaves.length > 0 ? leaves.map((leave, i) => (
+                        leaves.map((leave: any, i: any) => (
+
                            <div key={i} className="p-6 flex items-center justify-between hover:bg-white/[0.01] transition-all group">
                                 <div className="flex gap-6 items-center">
                                     <div className={`w-12 h-12 rounded-xl border flex items-center justify-center ${leave.status === 'APPROVED' ? 'bg-emerald-600/10 border-emerald-500/20 text-emerald-400' : 'bg-white/5 border-white/10 text-gray-500'}`}>
