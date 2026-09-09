@@ -18,8 +18,9 @@ export default async function FacultyPayroll() {
   const faculty = await getFacultyAdminData()
   if (!faculty) return <div className="p-10 text-white">Unauthorized.</div>
 
-  const payrolls = faculty.payrolls || []
+   const payrolls = (faculty as any).payrolls || []
   const latest = payrolls[0]
+  
 
   return (
     <div className="space-y-8 pb-10">
